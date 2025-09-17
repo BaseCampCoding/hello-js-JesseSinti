@@ -8,6 +8,14 @@ The password is always based on a poem and can be derived in a two-step process.
 The guard will recite the poem, one line at a time and you have to respond with an appropriate letter of that line.
 The guard will now tell you all the letters you responded with at once, and you need to write them down on a piece of paper in a specific format.
 The details of the process depend on which door you are trying to enter.
+# Here is the poem
+Stands so high
+Huge hooves too
+Impatiently waits for
+Reins and harness
+Eager to leave
+
+When the guard recites Stands so high, you'll respond h, when the guard recites Huge hooves too, you'll respond o.
 
 ## Task 1: Get the First Letter of a Line
 
