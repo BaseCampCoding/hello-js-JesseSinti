@@ -1,2 +1,11 @@
-
-  
+let ratePerHour = 60;
+let dayRate = ratePerHour * 8;
+let budget = 1000;
+let workdays = Math.floor(budget/dayRate);
+let billable = 22;
+let fullMonths = Math.floor(35/22);
+let remainingDays = 13;
+let monthlyDiscount = .8;
+let discountedMonthlyRate = billable * dayRate  * monthlyDiscount;
+let remainingCost = remainingDays * dayRate;
+let totalProjectCost = Math.round(discountedMonthlyRate + remainingCost)
