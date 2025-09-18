@@ -1,9 +1,19 @@
 let kind = "truck";
-let needsLicenseResult = true;
+let needsLicenseResult;
+if(kind == "car" || kind == "truck"){
+    needsLicenseResult = true;
+} else {
+    needsLicenseResult = false;
+}
 
 let option1 = 'GMC Sierra hd 2500';
 let option2 = ' GMC Sierra atv'
-let chooseVehicleResult = option2 + ' is clearly the better choice.'
+let chooseVehicleResult;
+if (option1 > option2){
+    chooseVehicleResult = option1 + ' is clearly the better choice.';
+} else {
+    chooseVehicleResult = option2 + ' is clearly the better choice.';
+}
 
 let originalPrice = 75000;
 let age = 5;
